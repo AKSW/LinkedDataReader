@@ -21,9 +21,12 @@ public class LinkedDataReader {
 	private int readTimeOut;
 	private String[] formats;
 	
+	public LinkedDataReader() {
+		this(5000, 30000, null);
+	}
+	
 	public LinkedDataReader(int connectTimeOut, int readTimeOut,
 			String[] formats) {
-		super();
 		this.connectTimeOut = connectTimeOut;
 		this.readTimeOut = readTimeOut;
 		this.formats = formats;
