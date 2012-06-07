@@ -1,18 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.aksw.ld</groupId>
-	<artifactId>reader</artifactId>
+	<groupId>org.aksw</groupId>
+	<artifactId>ldreader</artifactId>
 	<version>0.1-SNAPSHOT</version>
 	<name>LinkedDataReader</name>
 	<!-- <url></url> -->
 
-
 	<properties>
 		<maven.compiler.source>1.6</maven.compiler.source>
 		<maven.compiler.target>1.6</maven.compiler.target>
-
-		<gwt.version>2.0.4</gwt.version>
-
 
 		<!-- project defaults -->
 		<java.version>1.6</java.version>
@@ -20,15 +16,10 @@
 		<file.encoding>UTF-8</file.encoding>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
-		<spring.version>2.5.6</spring.version>
-		<aksw.commons.version>0.5-SNAPSHOT</aksw.commons.version>
 	</properties>
 
 	<scm>
-		<connection>scm:git:git@github.com:AKSW/Sparqlify.git</connection>
-		<!-- developerConnection></developerConnection -->
-		<!-- url>https://my-project.googlecode.com/svn</url -->
+		<connection>scm:git:git@github.com:AKSW/LinkedDataReader.git</connection>
 		<tag>HEAD</tag>
 	</scm>
 
